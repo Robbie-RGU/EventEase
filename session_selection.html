@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Session Selection - EventEase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">EventEase</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Session Selection</h1>
+        <h2 id="event-name"></h2>
+        <form id="session-selection-form" onsubmit="proceedToRegistration(event)">
+            <div class="session">
+                <input type="checkbox" id="session1" name="session1">
+                <label for="session1">Session 1 - 13:00</label>
+                <p>Description of Session 1.</p>
+            </div>
+            <div class="session">
+                <input type="checkbox" id="session2" name="session2">
+                <label for="session2">Session 2 - 14:00</label>
+                <p>Description of Session 2.</p>
+            </div>
+            <!-- Can manually add more -->
+            <button type="submit">Proceed to Registration</button>
+        </form>
+    </main>
+    <footer>
+        <p>Contact Information: info@eventease.com</p>
+        <p>Follow us on:
+            <a href="#">Facebook</a>,
+            <a href="#">Twitter</a>,
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
